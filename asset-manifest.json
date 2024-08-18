@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Urimu-Cafe/static/css/main.6a82fb5d.css",
-    "main.js": "/Urimu-Cafe/static/js/main.d415430d.js",
+    "main.js": "/Urimu-Cafe/static/js/main.677aa819.js",
     "static/media/bg.png": "/Urimu-Cafe/static/media/bg.3d421b1b5682e1b67deb.png",
     "static/media/cafe-view.jpg": "/Urimu-Cafe/static/media/cafe-view.81f9405ab2473c1c95f9.jpg",
     "static/media/back-ground-lake.jpeg": "/Urimu-Cafe/static/media/back-ground-lake.5763108fab7d0f9a7989.jpeg",
@@ -21,10 +21,10 @@
     "static/media/spoon.svg": "/Urimu-Cafe/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
     "index.html": "/Urimu-Cafe/index.html",
     "main.6a82fb5d.css.map": "/Urimu-Cafe/static/css/main.6a82fb5d.css.map",
-    "main.d415430d.js.map": "/Urimu-Cafe/static/js/main.d415430d.js.map"
+    "main.677aa819.js.map": "/Urimu-Cafe/static/js/main.677aa819.js.map"
   },
   "entrypoints": [
     "static/css/main.6a82fb5d.css",
-    "static/js/main.d415430d.js"
+    "static/js/main.677aa819.js"
   ]
 }

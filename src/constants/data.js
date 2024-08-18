@@ -2,81 +2,72 @@ import images from './images';
 
 const food = [
   {
-    title: 'Burger Meal',
-    price: '$56',
-    tags: 'AU | Meal',
+    title: 'おどろきのモーニング',
+    price: '420円',
   },
   {
-    title: '3x Pizza Deal',
-    price: '$59',
-    tags: 'AU | Deal',
+    title: 'はっちゃんのランチ',
+    price: '550〜700円',
   },
   {
-    title: 'Kebab Meal',
-    price: '$44',
-    tags: 'FR | Deal',
+    title: '山の幸セット(いのしし焼肉・ご飯・小鉢・味噌汁)',
+    price: '1500 yen',
   },
   {
-    title: 'Shawarma',
-    price: '$31',
-    tags: 'CA | Meal',
+    title: 'ハンバーグセット(ハンバーグ・サラダ・小鉢・ごはん・味噌汁)',
+    price: '900円〜',
   },
   {
-    title: 'Donner Roll',
-    price: '$26',
-    tags: 'IE | Meal',
+    title: 'とろとろたまごのオムライス(サラダ付)',
+    price: '1000 yen',
   },
+  {
+    title: 'オムプレート',
+    price: '1350yen',
+  },
+  {
+    title: '特盛りフライセット',
+    price: '1000 yen',
+  },
+  {
+    title: 'カレーセット',
+    price: '1000円〜',
+  },
+  {
+    title: 'あつあつグラタン',
+    price: '1000 yen',
+  },
+  {
+    title: '鉄板ナポリタン',
+    price: '1000 yen',
+  },
+  {
+    title: 'ホットサンド',
+    price: '1000 yen',
+  },
+  {
+    title: 'ピザ',
+    price: '1000 yen',
+  },
+  {
+    title: 'ハンバーグセット',
+    price: '1000 yen',
+  }
+
 ];
 
 const drinks = [
   {
-    title: 'Coca Cola',
-    price: '$20',
-    tags: 'Free with a meal | Soda | 30 ml',
+    title: 'コーヒー',
+    price: '500 yen',
   },
   {
-    title: "Pepsi",
-    price: '$16',
-    tags: 'Free with a meal | Soda | 30 ml',
+    title: '紅茶',
+    price: '500 yen',
   },
-  {
-    title: 'Water',
-    price: '$10',
-    tags: 'Free with a meal | 30 ml',
-  },
-  {
-    title: 'Water',
-    price: '$31',
-    tags: 'Free with a meal | 30 ml',
-  },
-  {
-    title: 'Rio',
-    price: '$26',
-    tags: 'Free with a meal | Soda | 30 ml',
-  },
+
 ];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Fully Hygenic',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
 
-export default { food, drinks, awards };
+
+export default { food, drinks };

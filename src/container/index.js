@@ -1,11 +1,10 @@
-import AboutUs from './AboutUs/AboutUs';
+import AboutUs from './GalleryTrois/GalleryTrois';
 import Chef from './Chef/Chef';
 import FindUs from './Findus/FindUs';
 import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
+import GalleryTrois from './GalleryTrois/GalleryTrois';
 import Header from './Header/Header';
-import Intro from './Intro/Intro';
-import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
 
 export {
@@ -14,8 +13,7 @@ export {
   FindUs,
   Footer,
   Gallery,
+  GalleryTrois,
   Header,
-  Intro,
-  Laurels,
   SpecialMenu,
 };

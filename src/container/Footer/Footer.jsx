@@ -12,37 +12,38 @@ const Footer = () => (
 
     <div className="app__footer-links w-full flex items-start flex-col justify-between lg:flex-row mt-20 py-0 px-8">
       <div className="app__footer-links_contact flex-one my-8 mx-0 xl:m-4 text-left lg:text-center">
-        <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">Postcode, Street, City, Country</p>
-        <p className="p__opensans">+1 212-344-1230</p>
-        <p className="p__opensans">+1 212-555-1230</p>
+        <h1 className="app__footer-headtext">r</h1>
+        <p className="p__opensans">北海道川上郡弟子屈町字美留和原野315-1
+          <br />カフェ　うりむぅ</p>
+        <p className="p__opensans">電話番号: 015−482−6033</p>
+        <p className="p__opensans">
+          <a href="https://tesikaga-urimuu.asablo.jp/blog/" style={{ color: 'blue' }} target="_blank" rel="noopener noreferrer">
+            店主ブログ
+          </a>
+        </p>
       </div>
 
       <div className="app__footer-links_logo flex-one my-8 mx-0 xl:m-4 text-left lg:text-center">
-        <img src={images.gericht} alt="footer_logo" className='w-4/5 mobile:w-[210px] mb-3 lg:mx-auto'/>
-        <p className="p__opensans lg:text-center text-left">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
-        <img src={images.spoon} className="spoon__img lg:mx-auto" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons mt-2 flex flex-row lg:justify-center">
-          <FiFacebook className='text-primary-white m-2 text-2xl cursor-pointer hover:text-primary-golden'/>
-          <FiTwitter className='text-primary-white m-2 text-2xl cursor-pointer hover:text-primary-golden'/>
-          <FiInstagram className='text-primary-white m-2 text-2xl cursor-pointer hover:text-primary-golden'/>
+          <FiFacebook className='text-primary-white m-2 text-2xl cursor-pointer hover:text-primary-golden' />
+          <FiInstagram className='text-primary-white m-2 text-2xl cursor-pointer hover:text-primary-golden' />
         </div>
       </div>
 
       <div className="app__footer-links_work flex-one my-8 mx-0 xl:m-4 text-left lg:text-center">
-        <h1 className="app__footer-headtext font-CormorantUpright text-primary-white font-normal leading-10 tracking-wider capitalize text-size-3xl mb-4 big:text-[51px]">Working Hours</h1>
-        <p className="p__opensans">Monday-Friday:</p>
-        <p className="p__opensans">08:00 am - 12:00 am</p>
-        <p className="p__opensans">Saturday-Sunday:</p>
-        <p className="p__opensans">07:00 am - 11:00 pm</p>
+        <h1 className="app__footer-headtext font-CormorantUpright text-primary-white font-normal leading-10 tracking-wider capitalize text-size-3xl mb-4 big:text-[51px]">営業期間・時間</h1>
+        <p className="p__opensans">5月から11月</p>
+        <p className="p__opensans">定休日　第1第2第3水曜日木曜日、第4以降の木曜日
+          営業時間　9時〜21時
+          ※営業期間・時間・定休日は異なる場合あり</p>
       </div>
     </div>
 
     <div className="footer__copyright mt-12">
-      <p className="p__opensans">2021 Gericht. All Rights reserved.</p>
+      <p className="p__opensans">URIMU</p>
     </div>
 
-  </div>
+  </div >
 );
 
 export default Footer;

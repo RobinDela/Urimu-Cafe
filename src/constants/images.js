@@ -19,6 +19,8 @@ import photoGite1 from '../assets/photo-gite1.jpg';
 import photoGite2 from '../assets/photo-gite2.jpg';
 import photoGite3 from '../assets/photo-gite3.jpg';
 import photoGite4 from '../assets/photo-gite4.jpg';
+import gallery08 from '../assets/photo8.jpg';
+import gallery09 from '../assets/photo9.jpg';
 
 
 
@@ -35,6 +37,8 @@ export default {
   gallery04,
   gallery05,
   gallery06,
+  gallery08,
+  gallery09,
   photoGite1,
   photoGite2,
   photoGite3,

@@ -29,7 +29,7 @@ const FindUs = () => (
         <p className="p__opensans"></p>
       </div>
       <a
-        href="https://www.google.com/maps/place/%E3%82%AB%E3%83%95%E3%82%A7%E3%81%86%E3%82%8A%E3%82%80%E3%81%85/@43.5484922,144.4273153,17z/data=!4m8!3m7!1s0x5f6d791c1c40a9fd:0x6472db200775f5ac!8m2!3d43.5484922!4d144.4298902!9m1!1b1!16s%2Fg%2F11mtjvl5wm?entry=ttu"
+        href="https://www.google.com/maps/place/%E3%82%AB%E3%83%95%E3%82%A7%E3%81%86%E3%82%8A%E3%82%80%E3%81%85/@43.5484922,144.4273153,17z/data=!4m16!1m9!3m8!1s0x5f6d791c1c40a9fd:0x6472db200775f5ac!2z44Kr44OV44Kn44GG44KK44KA44GF!8m2!3d43.5484922!4d144.4298902!9m1!1b1!16s%2Fg%2F11mtjvl5wm!3m5!1s0x5f6d791c1c40a9fd:0x6472db200775f5ac!8m2!3d43.5484922!4d144.4298902!16s%2Fg%2F11mtjvl5wm?entry=ttu"
         className="custom__button mt-8"
         target="_blank"
         rel="noopener noreferrer"

@@ -31,13 +31,12 @@ const GalleryTrois = () => {
         <p className="p__cormorant">＜アメニティ＞</p>
         <p className="p__cormorant">シャンプー・コンディショナー・ボディソープ・ドライヤー・タオル</p><br />
       </div>
-      <div className="app__gallery-images flex-one flex flex-row max-w-[90%] relative xl:max-w-[100%]">
+      <div className="app__gallery-images flex-one flex flex-row max-w-[90%] relative xl:max-w-[50%]">
         <div className="app__gallery-images_container flex flex-row w-max overflow-x-scroll" ref={scrollRef}>
 
           {[images.photoGite4, images.gallery04, images.photoGite3, images.photoGite2].map((image, index) => (
             <div className="app__gallery-images_card relative min-w-[240px] h-[320px] mr-8 flex__center sm:min-w-[301px] sm:h-[447px] " key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" className='w-full h-full object-cover opacity-100 duration-500 ease-in-out' />
-              <BsInstagram className="gallery__image-icon absolute text-primary-white text-size-4xl opacity-0 duration-500 ease-in-out cursor-pointer" />
             </div>
           ))}
 

@@ -17,6 +17,9 @@ import otooka from '../assets/oto-oka.png';
 import aboutUs from '../assets/about-us.jpg';
 import photoGite1 from '../assets/photo-gite1.jpg';
 import photoGite2 from '../assets/photo-gite2.jpg';
+import photoGite3 from '../assets/photo-gite3.jpg';
+import photoGite4 from '../assets/photo-gite4.jpg';
+
 
 
 
@@ -34,6 +37,8 @@ export default {
   gallery06,
   photoGite1,
   photoGite2,
+  photoGite3,
+  photoGite4,
   overlaybg,
   spoon,
   quote,

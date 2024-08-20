@@ -6,6 +6,13 @@
   padding: 4rem 6rem;
 }
 
+.p__background {
+  font-size: 22px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+
+}
+
 .flex__center {
   display: flex;
   justify-content: center;
@@ -133,6 +140,13 @@
   .spoon__img {
     width: 80px;
   }
+
+  .p__background {
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -151,11 +165,25 @@
   .app__wrapper_img img {
     width: 100%;
   }
+
+  .p__background {
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+  }
 }
 
 @media screen and (max-width: 850px) {
   .section__padding {
     padding: 4rem;
+  }
+
+  .p__background {
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
   }
 }
 
@@ -171,6 +199,14 @@
   .p__opensans {
     font-size: 14px;
   }
+
+  .p__background {
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+  }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -185,5 +221,12 @@
   .headtext__cormorant {
     font-size: 45px;
     line-height: 70px;
+  }
+
+  .p__background {
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
   }
 }

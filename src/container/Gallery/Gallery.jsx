@@ -22,9 +22,10 @@ const Gallery = () => {
     <div className="app__gallery flex__center flex-col bg-primary-black py-16 px-8 xl:px-24 xl:flex-row">
       <div className="app__gallery-content flex-one flex justify-center items-center flex-col min-w-[100%] xl:pr-8 sm:min-w-[500px] ">
         <h1 className="headtext__cormorant">Our restaurant</h1>
-        <p className="p__cormorant">カフェうりむぅでは、店主が冬場に狩りをした数量限定の猪肉を食べることができます。
+        <p className="p__cormorant mb-7">カフェうりむぅでは、店主が冬場に狩りをした数量限定の猪肉を食べることができます。
           また、ランチやモーニング、サイフォン式コーヒーが人気です。
           不定期でピザ窯を使用したピザ焼き体験もしています。</p>
+
       </div>
       <div className="app__gallery-images flex-one flex flex-row max-w-[90%] relative xl:max-w-[50%]">
         <div className="app__gallery-images_container flex flex-row w-max overflow-x-scroll" ref={scrollRef}>
@@ -42,7 +43,7 @@ const Gallery = () => {
           <BsArrowRightShort className="gallery__arrow-icon text-primary-golden text-size-4xl cursor-pointer bg-primary-black rounded-md hover:text-primary-white" onClick={() => scroll('right')} />
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

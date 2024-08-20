@@ -7,7 +7,7 @@ import './SpecialMenu.css';
 const SpecialMenu = () => (
   <div className="flex-col bg-primary-black flex__center section__padding" id="menu">
     <div className="mb-8 m-auto flex flex-col justify-center items-center">
-      <SubHeading title="Menu that fits your palatte" />    </div>
+    </div>
 
     <div className="app__specialMenu-menu w-full mt-8 mx-0 flex justify-center items-center flex-col lg:items-start lg:flex-row">
       <div className="app__specialMenu-menu_food  flex__center flex-one w-full flex-col">
@@ -30,11 +30,10 @@ const SpecialMenu = () => (
             <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
           ))}
         </div>
+        <p className="p__opensans font-CormorantUpright font-semibold text-4xl leading-9 tracking-wider text-primary-white md:text-base">
+          上記以外にもお食事、お飲み物、デザートのご用意があります。詳細は店内のメニューをご覧ください。またお値段は変更になる可能性があります。
+        </p>
       </div>
-    </div>
-
-    <div className='mt-4'>
-      <button type="button" className="custom__button">View More</button>
     </div>
   </div>
 );

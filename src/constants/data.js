@@ -2,11 +2,11 @@ import images from './images';
 
 const food = [
   {
-    title: 'おどろきのモーニング',
+    title: 'モーニング',
     price: '420円',
   },
   {
-    title: 'はっちゃんのランチ',
+    title: '本日のランチ',
     price: '550〜700円',
   },
   {
@@ -27,43 +27,41 @@ const food = [
   },
   {
     title: '特盛りフライセット',
-    price: '1000 yen',
+    price: '1450 yen',
   },
   {
     title: 'カレーセット',
-    price: '1000円〜',
+    price: '800円〜',
   },
   {
     title: 'あつあつグラタン',
-    price: '1000 yen',
+    price: '920yen',
   },
   {
     title: '鉄板ナポリタン',
-    price: '1000 yen',
+    price: '900yen',
   },
   {
     title: 'ホットサンド',
-    price: '1000 yen',
+    price: '520 yen',
   },
   {
     title: 'ピザ',
-    price: '1000 yen',
+    price: '920 yen',
   },
-  {
-    title: 'ハンバーグセット',
-    price: '1000 yen',
-  }
+
+
 
 ];
 
 const drinks = [
   {
     title: 'コーヒー',
-    price: '500 yen',
+    price: '350 yen',
   },
   {
     title: '紅茶',
-    price: '500 yen',
+    price: '350 yen',
   },
 
 ];

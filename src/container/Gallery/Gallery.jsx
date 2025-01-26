@@ -22,15 +22,15 @@ const Gallery = () => {
     <div className="app__gallery flex__center flex-col bg-primary-black py-16 px-8 xl:px-24 xl:flex-row">
       <div className="app__gallery-content flex-one flex justify-center items-center flex-col min-w-[100%] xl:pr-8 sm:min-w-[500px] ">
         <h1 className="headtext__cormorant">Our restaurant</h1>
-        <p className="p__cormorant mb-7">カフェうりむぅでは、店主が冬場に狩りをした数量限定の猪肉を食べることができます。
-          また、ランチやモーニング、サイフォン式コーヒーが人気です。
+        <p className="p__cormorant mb-7">カフェうりむぅでは、店主が冬場に狩りをした数量限定の猪肉を食べることができます。<br />
+          また、ランチやモーニング、サイフォン式コーヒーが人気です。<br />
           不定期でピザ窯を使用したピザ焼き体験もしています。</p>
 
       </div>
       <div className="app__gallery-images flex-one flex flex-row max-w-[90%] relative xl:max-w-[50%]">
         <div className="app__gallery-images_container flex flex-row w-max overflow-x-scroll" ref={scrollRef}>
 
-          {[images.gallery03, images.gallery02, images.gallery04, images.gallery05, images.gallery06, images.gallery08, images.gallery09].map((image, index) => (
+          {[images.hamburger, images.gallery03, images.gallery02, images.gallery04, images.gallery05, images.gallery06, images.gallery08, images.gallery09].map((image, index) => (
             <div className="app__gallery-images_card relative min-w-[240px] h-[320px] mr-8 flex__center sm:min-w-[301px] sm:h-[447px] " key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" className='w-full h-full object-cover opacity-100 duration-500 ease-in-out' />
             </div>

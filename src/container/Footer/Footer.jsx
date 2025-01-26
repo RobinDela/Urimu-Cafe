@@ -10,11 +10,11 @@ const Footer = () => (
 
     <div className="app__footer-links w-full flex items-start flex-col justify-between lg:flex-row mt-20 py-0 px-8">
       <div className="app__footer-links_contact flex-one my-8 mx-0 xl:m-4 text-left lg:text-center">
-        <h1 className="p__cormorant">Contact US</h1>
+        <h1 className="p__cormorant">連絡先</h1>
         < br />
         <p className="p__opensans">北海道川上郡弟子屈町字美留和原野315-1
           <br />カフェ　うりむぅ</p>
-        <p className="p__opensans">電話番号: 015−482−6033</p>
+        <p className="p__opensans">電話番号: 015−482−6033 / 090-3033-7090</p>
         <p className="p__opensans">
           <a href="https://tesikaga-urimuu.asablo.jp/blog/" style={{ color: 'blue' }} target="_blank" rel="noopener noreferrer">
             店主ブログ
@@ -27,7 +27,7 @@ const Footer = () => (
 
       <div className="app__footer-links_work flex-one my-8 mx-0 xl:m-4 text-left lg:text-center">
         <h1 className="app__footer-headtext font-CormorantUpright text-primary-white font-normal leading-10 tracking-wider capitalize text-size-xl mb-4 big:text-[50px]">Business hours</h1>
-        <p className="p__opensans">5月から10月</p>
+        <p className="p__opensans">４月下旬から10月下旬</p>
         <p className="p__opensans">定休日　第1第2第3水曜日木曜日、第4以降の木曜日 < br />
           営業時間　9時〜21時
           < br />

@@ -20,8 +20,10 @@ const GalleryTrois = () => {
 
   return (
     <div className="app__gallery flex__center flex-col bg-primary-black py-16 px-8 xl:px-24 xl:flex-row">
-      <h1 className="headtext__cormorant ite">Gites トロワ</h1>
+      <h2 className="headtext__cormorant ite">Gites Trois</h2>
       <div className="app__gallery-content flex-one flex justify-center items-start flex-col min-w-[100%] xl:pr-8 sm:min-w-[500px] ">
+        <p className="p__cormorant2">
+          ジット トロワ</p><br />
         <p className="p__cormorant">
           ＜宿泊料金＞</p>
         <p className="p__cormorant">素泊まり1名様4,000円　定員2名</p><br />
@@ -30,11 +32,12 @@ const GalleryTrois = () => {
           ※トイレ・浴室・洗面所は共有</p><br />
         <p className="p__cormorant">＜アメニティ＞</p>
         <p className="p__cormorant">シャンプー・コンディショナー・ボディソープ・ドライヤー・タオル</p><br />
+        <p className="p__cormorant"> 野生動物ナイトウォッチングツアーも行っています。詳細はお尋ねください。</p>
       </div>
       <div className="app__gallery-images flex-one flex flex-row max-w-[90%] relative xl:max-w-[50%]">
         <div className="app__gallery-images_container flex flex-row w-max overflow-x-scroll" ref={scrollRef}>
 
-          {[images.photoGite4, images.gallery04, images.photoGite3, images.photoGite2].map((image, index) => (
+          {[images.photoGite4, images.gallery04, images.photoGite3, images.photoGite2, images.nightTour].map((image, index) => (
             <div className="app__gallery-images_card relative min-w-[240px] h-[320px] mr-8 flex__center sm:min-w-[301px] sm:h-[447px] " key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" className='w-full h-full object-cover opacity-100 duration-500 ease-in-out' />
             </div>

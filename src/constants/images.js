@@ -21,6 +21,9 @@ import photoGite3 from '../assets/photo-gite3.jpg';
 import photoGite4 from '../assets/photo-gite4.jpg';
 import gallery08 from '../assets/photo8.jpg';
 import gallery09 from '../assets/photo9.jpg';
+import nightTour from '../assets/night.jpg';
+import hamburger from '../assets/hamburger.jpg';
+
 
 
 
@@ -50,5 +53,8 @@ export default {
   logo,
   bento,
   otooka,
-  aboutUs
+  aboutUs,
+  hamburger,
+  nightTour
+
 };

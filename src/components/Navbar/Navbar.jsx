@@ -51,11 +51,11 @@ const Navbar = () => {
             {/*=========== Login Button ============*/}
 
             <div className="sm:flex hidden justify-end items-center">
-                <a href='#login' className='my-0 mx-1 no-underline hover:text-primary-gray'>Under construction</a>
+                <a href='#login' className='my-0 mx-1 no-underline hover:text-primary-gray'></a>
                 <div className="line" />
                 <a
                     href="/"
-                    className='my-0 mx-1 no-underline duration-150 hover:text-primary-gray'>Under construction</a>
+                    className='my-0 mx-1 no-underline duration-150 hover:text-primary-gray'></a>
             </div>
 
             {/*================ Mobile Navigation ================*/}

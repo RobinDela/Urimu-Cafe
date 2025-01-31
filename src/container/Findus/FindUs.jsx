@@ -1,6 +1,5 @@
 import React from 'react';
 import './FindUs.css';
-import { SubHeading } from '../../components';
 import { images } from '../../constants';
 
 const FindUs = () => (
@@ -38,7 +37,7 @@ const FindUs = () => (
       </a>    </div>
 
     <div className="app__wrapper_img">
-      <img src={images.cafeView} alt="finus_img" className='md:w-5/6' />
+      <img src={images.photoGite4} alt="finus_img" className='md:w-5/6' />
     </div>
   </div>
 );

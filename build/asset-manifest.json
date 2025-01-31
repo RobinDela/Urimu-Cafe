@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/Urimu-Cafe/static/css/main.da384712.css",
-    "main.js": "/Urimu-Cafe/static/js/main.82da525f.js",
+    "main.css": "/Urimu-Cafe/static/css/main.667667b0.css",
+    "main.js": "/Urimu-Cafe/static/js/main.42f74567.js",
     "static/media/cafe-view.jpg": "/Urimu-Cafe/static/media/cafe-view.c65d92172bf0ec005a10.jpg",
     "static/media/bg.png": "/Urimu-Cafe/static/media/bg.0c7df98b85f7b8dfdd16.png",
     "static/media/back-ground-lake.jpeg": "/Urimu-Cafe/static/media/back-ground-lake.9f256fda328fc0779bfd.jpeg",
-    "static/media/photo4.jpg": "/Urimu-Cafe/static/media/photo4.aee24f254074672b3936.jpg",
+    "static/media/photo4.jpg": "/Urimu-Cafe/static/media/photo4.e35a3290817d0ed49bae.jpg",
     "static/media/photo6.jpg": "/Urimu-Cafe/static/media/photo6.94ed5d55b7b97fc7057e.jpg",
     "static/media/photo5.jpg": "/Urimu-Cafe/static/media/photo5.01d5dc59297522dddd28.jpg",
     "static/media/photo-gite2.jpg": "/Urimu-Cafe/static/media/photo-gite2.4b3231365ce9463641c3.jpg",
     "static/media/photo8.jpg": "/Urimu-Cafe/static/media/photo8.d0eb054da2596db96a0d.jpg",
     "static/media/photo9.jpg": "/Urimu-Cafe/static/media/photo9.f0477c6e0ee6fd17d2ac.jpg",
     "static/media/photo-gite3.jpg": "/Urimu-Cafe/static/media/photo-gite3.294f13de5074bfc9829b.jpg",
+    "static/media/hamburger.jpg": "/Urimu-Cafe/static/media/hamburger.673512b1ecafba9cd7e2.jpg",
+    "static/media/night.jpg": "/Urimu-Cafe/static/media/night.9ae51dc3e8aaae22f424.jpg",
     "static/media/photo3.jpg": "/Urimu-Cafe/static/media/photo3.49af8f1893fb3306dc21.jpg",
     "static/media/photo2.jpg": "/Urimu-Cafe/static/media/photo2.4e71f8da968024f6a407.jpg",
     "static/media/photo1.jpg": "/Urimu-Cafe/static/media/photo1.aeef78f71d8d54de6091.jpg",
@@ -23,11 +25,11 @@
     "static/media/bento.jpg": "/Urimu-Cafe/static/media/bento.8d0c395a32a12830b5a8.jpg",
     "index.html": "/Urimu-Cafe/index.html",
     "static/media/spoon.svg": "/Urimu-Cafe/static/media/spoon.4a19e8ceb677bbbf6e8a52ae5b7c5baf.svg",
-    "main.da384712.css.map": "/Urimu-Cafe/static/css/main.da384712.css.map",
-    "main.82da525f.js.map": "/Urimu-Cafe/static/js/main.82da525f.js.map"
+    "main.667667b0.css.map": "/Urimu-Cafe/static/css/main.667667b0.css.map",
+    "main.42f74567.js.map": "/Urimu-Cafe/static/js/main.42f74567.js.map"
   },
   "entrypoints": [
-    "static/css/main.da384712.css",
-    "static/js/main.82da525f.js"
+    "static/css/main.667667b0.css",
+    "static/js/main.42f74567.js"
   ]
 }

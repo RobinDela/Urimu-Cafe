@@ -61,7 +61,7 @@ const drinks = [
   },
   {
     title: '紅茶',
-    price: '4000円',
+    price: '400円',
   },
 
 ];

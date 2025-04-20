@@ -3,7 +3,7 @@ import images from './images';
 const food = [
   {
     title: 'モーニング',
-    price: '420円',
+    price: '480円',
   },
   {
     title: '本日のランチ',
@@ -15,7 +15,7 @@ const food = [
   },
   {
     title: 'ハンバーグセット(ハンバーグ・サラダ・小鉢・ごはん・味噌汁)',
-    price: '900円〜',
+    price: '950円〜',
   },
   {
     title: 'とろとろたまごのオムライス(サラダ付)',
@@ -31,11 +31,11 @@ const food = [
   },
   {
     title: 'カレーセット',
-    price: '800円〜',
+    price: '850円〜',
   },
   {
     title: 'あつあつグラタン',
-    price: '920円',
+    price: '950円',
   },
   {
     title: '鉄板ナポリタン',
@@ -47,7 +47,7 @@ const food = [
   },
   {
     title: 'ピザ',
-    price: '920円',
+    price: '950円',
   },
 
 
@@ -57,11 +57,11 @@ const food = [
 const drinks = [
   {
     title: 'コーヒー',
-    price: '350円',
+    price: '400円',
   },
   {
     title: '紅茶',
-    price: '350円',
+    price: '4000円',
   },
 
 ];

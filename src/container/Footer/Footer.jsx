@@ -28,7 +28,7 @@ const Footer = () => (
       <div className="app__footer-links_work flex-one my-8 mx-0 xl:m-4 text-left lg:text-center">
         <h1 className="app__footer-headtext font-CormorantUpright text-primary-white font-normal leading-10 tracking-wider capitalize text-size-xl mb-4 big:text-[50px]">Business hours</h1>
         <p className="p__opensans">４月下旬から10月下旬</p>
-        <p className="p__opensans">定休日　第1第2第3水曜日木曜日、第4以降の木曜日 < br />
+        <p className="p__opensans">定休日　毎週水曜日　木曜日< br />
           営業時間　9時〜21時
           < br />
           ※営業期間・時間・定休日は異なる場合あり</p>
